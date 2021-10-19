@@ -1,0 +1,12 @@
+// Navbar animation
+
+@keyframes animNav {
+	from {
+		transform: translate(-50px, -50px);
+		opacity: 0.3s;
+	}
+	to {
+		transform: translate(0, 0);
+		opacity: 1;
+	}
+}
