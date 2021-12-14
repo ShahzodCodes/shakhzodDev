@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap');
 
+//Color
+
+$homeButtonColor: #2b2b2b;
+$homeButtonColor2: #faff00;
+$socialIcons: #faff00;
+
 html {
 	overflow-x: hidden;
 }
@@ -61,10 +67,14 @@ nav.fixed {
 	display: flex;
 	justify-content: center;
 	flex-direction: row-reverse;
-	padding: 70px;
+	padding: 90px 70px 0 70px;
+	.wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
 	.side1 {
 		width: 55%;
-		margin: 20px 0;
+		margin: 20px 0 0 0;
 		.name {
 			font-size: 70px;
 			font-family: 'Montserrat', sans-serif;
@@ -77,6 +87,47 @@ nav.fixed {
 			font-size: 20px;
 			margin: 15px 3px 60px;
 			font-family: 'Montserrat', sans-serif;
+		}
+		.buttons {
+			.linkBtn {
+				background-color: $homeButtonColor;
+				padding: 17px 40px;
+				color: white;
+				font-size: 20px;
+				text-decoration: none;
+				font-weight: 500;
+				font-family: 'Montserrat', sans-serif;
+				&:nth-child(2) {
+					margin-left: 10px;
+					background-color: $homeButtonColor2;
+					color: #000000;
+				}
+			}
+		}
+		.socialNet {
+			margin-top: 70px;
+			.links {
+				padding: 0 30px 0 0;
+				.socialIcon {
+					font-size: 35px;
+					color: #ffffff;
+					transition: all 0.25s linear 0s;
+					&:hover {
+						color: $socialIcons;
+						transform: scale(1.3);
+					}
+				}
+			}
+		}
+	}
+	.side2 {
+		width: 50%;
+		// background-color: red;
+		.myImage {
+			width: 70%;
+			display: flex;
+			margin-left: auto;
+			height: 98%;
 		}
 	}
 }

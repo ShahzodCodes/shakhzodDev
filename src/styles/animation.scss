@@ -1,3 +1,56 @@
+//Home Page Text Animation
+
+@keyframes homeText {
+	from {
+		transform: translateY(40px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes homeText {
+	from {
+		transform: translateY(40px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes homeText {
+	from {
+		transform: translateY(40px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@-o-keyframes homeText {
+	from {
+		transform: translateY(40px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.homeText {
+	animation-name: homeText;
+	-webkit-animation-name: homeText;
+	-moz-animation-name: homeText;
+	-o-animation-name: homeText;
+}
+
 // Navbar animation
 
 @keyframes animNav {
@@ -9,4 +62,44 @@
 		transform: translate(0, 0);
 		opacity: 1;
 	}
+}
+
+@-moz-keyframes animNav {
+	from {
+		transform: translate(-50px, -50px);
+		opacity: 0.3s;
+	}
+	to {
+		transform: translate(0, 0);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes animNav {
+	from {
+		transform: translate(-50px, -50px);
+		opacity: 0.3s;
+	}
+	to {
+		transform: translate(0, 0);
+		opacity: 1;
+	}
+}
+
+@-o-keyframes animNav {
+	from {
+		transform: translate(-50px, -50px);
+		opacity: 0.3s;
+	}
+	to {
+		transform: translate(0, 0);
+		opacity: 1;
+	}
+}
+
+.animNav {
+	animation-name: animNav;
+	-webkit-animation-name: animNav;
+	-moz-animation-name: animNav;
+	-o-animation-name: animNav;
 }

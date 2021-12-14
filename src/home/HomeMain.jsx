@@ -6,7 +6,7 @@ import AboutInfo from './AboutInfo'
 const HomeMain = () => {
 	return (
 		<>
-			<Reveal effect='animNav'>
+			<Reveal effect='animNav' duration='750'>
 				<NavSec />
 			</Reveal>
 			<AboutInfo />
