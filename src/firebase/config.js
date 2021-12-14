@@ -1,6 +1,8 @@
-import { firebase } from 'firebase'
+// import firebase from 'firebase'
 
-// import 'firebase/database'
+import firebase from 'firebase/compat/app'
+import 'firebase/compat/auth'
+import 'firebase/compat/firestore'
 
 const firebaseConfig = {
 	apiKey: 'AIzaSyCr4D6MyxLpohfNCk2FgV5QaflW3NkjR1w',
@@ -17,10 +19,3 @@ const firebaseApp = firebase.initializeApp(firebaseConfig)
 const db = firebaseApp.firestore()
 
 export default db
-
-//==================================================================
-
-// firebase.initializeApp(firebaseConfig)
-// const databaseRef = firebase.database().ref()
-// export const notesRef = databaseRef.child('my Portfolio Web Site')
-// export default firebase
