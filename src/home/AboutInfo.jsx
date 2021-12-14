@@ -34,11 +34,26 @@ const AboutInfo = () => {
 						</Reveal>
 						<div className='buttons'>
 							<Link className='linkBtn' to='/'>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
 								About me
 							</Link>
 							<Link className='linkBtn' to='/'>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
 								Portfolio
 							</Link>
+							{/* <a href='#'>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								Neon button
+							</a> */}
 						</div>
 						<div className='socialNet'>
 							<a className='links' href='#' target='_blank'>
