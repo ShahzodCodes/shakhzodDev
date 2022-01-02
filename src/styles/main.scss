@@ -8,6 +8,26 @@ $homeButtonColor: #2b2b2b;
 $homeButtonColor2: #2b2b2b;
 $socialIcons: #03e9f4;
 
+//Mixins-Color
+
+@mixin PageTitle1 {
+	font-size: 45px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	margin: 0;
+	padding: 0;
+}
+
+@mixin PageTitle2 {
+	font-size: 30px;
+	color: $socialIcons;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0.7px;
+}
+
 ::selection {
 	// background-color: rgb(0, 0, 0);
 	color: #03e9f4;
@@ -241,10 +261,24 @@ nav.fixed {
 		width: 50%;
 		// background-color: red;
 		.myImage {
-			width: 70%;
+			width: 90%;
 			display: flex;
 			margin-left: auto;
-			height: 98%;
+			height: 90%;
+			// border-radius: 50%;
 		}
+	}
+}
+
+//Portfolio
+
+.titles {
+	text-align: center;
+	margin-top: 75px;
+	.title1 {
+		@include PageTitle1();
+	}
+	.title2 {
+		@include PageTitle2();
 	}
 }

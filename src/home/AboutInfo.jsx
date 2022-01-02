@@ -17,11 +17,11 @@ const AboutInfo = () => {
 		)
 	}, [])
 
-	useEffect(() => {
-		db.collection('shahzodDev').onSnapshot(snapshot =>
-			setPortfolios(snapshot.docs.map(doc => doc.data()))
-		)
-	}, [])
+	// useEffect(() => {
+	// 	db.collection('shahzodDev').onSnapshot(snapshot =>
+	// 		setPortfolios(snapshot.docs.map(doc => doc.data()))
+	// 	)
+	// }, [])
 
 	return (
 		<div className='aboutInfo'>
@@ -40,7 +40,7 @@ const AboutInfo = () => {
 								<span></span>
 								About me
 							</Link>
-							<Link className='linkBtn' to='/'>
+							<Link className='linkBtn' to='/portfolio'>
 								<span></span>
 								<span></span>
 								<span></span>
@@ -79,23 +79,6 @@ const AboutInfo = () => {
 					</div>
 				</div>
 			))}
-
-			{/* {portfolios.map(blog => (
-				<>
-					<div style={{ color: 'white' }}>
-						{blog.data} <br />
-						{blog.data1} <br />
-						{blog.data2} <br />
-						{blog.data3} <br />
-						{blog.data4} <br />
-						{blog.data5} <br />
-						{blog.data6} <br />
-						{blog.data7} <br />
-						{blog.data8} <br />
-						{blog.data9} <br />
-					</div>
-				</>
-			))} */}
 		</div>
 	)
 }

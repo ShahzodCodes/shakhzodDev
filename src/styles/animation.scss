@@ -103,3 +103,56 @@
 	-moz-animation-name: animNav;
 	-o-animation-name: animNav;
 }
+
+//Portfolio Animation
+
+@keyframes portfolioAnim {
+	from {
+		transform: translate(90px, 90px);
+		opacity: 0.3s;
+	}
+	to {
+		transform: translate(0, 0);
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes portfolioAnim {
+	from {
+		transform: translate(90px, 90px);
+		opacity: 0.3s;
+	}
+	to {
+		transform: translate(0, 0);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes portfolioAnim {
+	from {
+		transform: translate(90px, 90px);
+		opacity: 0.3s;
+	}
+	to {
+		transform: translate(0, 0);
+		opacity: 1;
+	}
+}
+
+@-o-keyframes portfolioAnim {
+	from {
+		transform: translate(90px, 90px);
+		opacity: 0.3s;
+	}
+	to {
+		transform: translate(0, 0);
+		opacity: 1;
+	}
+}
+
+.portfolioAnim {
+	animation-name: portfolioAnim;
+	-webkit-animation-name: portfolioAnim;
+	-moz-animation-name: portfolioAnim;
+	-o-animation-name: portfolioAnim;
+}
