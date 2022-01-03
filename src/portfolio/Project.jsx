@@ -21,18 +21,22 @@ const Project = () => {
 					{projects.map((project, index) => (
 						<Col md='12' key={index}>
 							<div className='projectCard'>
-								{/* <img src={project.image} alt='project image' /> */}
-								<div className='cardSide'>
+								<img
+									className='projectImage'
+									src={project.image}
+									alt='project image'
+								/>
+								<div className='projectInfo'>
 									<div className='projectAbout'>
-										<h3>{project.projectName}</h3>
-										<p>{project.projectDescription}</p>
-										<img src={project.image} alt='project image' />
+										<h3 className='projectName'>{project.projectName}</h3>
+										<p className='projectDesc'>{project.projectDesc}</p>
+										{/* <img src={project.image} alt='project image' /> */}
 									</div>
 									<div className='projectButtons'>
-										<a href='#' target='_blank'>
+										<a href={project.code} target='_blank' className='buttons'>
 											Source <GitHubIcon />
 										</a>
-										<a href='#' target='_blank'>
+										<a href={project.demo} target='_blank' className='buttons'>
 											Demo <LinkIcon />
 										</a>
 									</div>

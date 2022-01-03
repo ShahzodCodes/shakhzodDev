@@ -32,7 +32,7 @@ const NavSec = () => {
 		<>
 			<Navbar className={x.join(' ')} light expand='md'>
 				<Link to='/' className='navbar-brand'>
-					<b>Shakhzod Yokubov</b>
+					<b>Shahzod Yoqubov</b>
 				</Link>
 				<NavbarToggler onClick={toggle} />
 				<Collapse isOpen={isOpen} navbar>

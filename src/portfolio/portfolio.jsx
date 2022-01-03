@@ -3,6 +3,7 @@ import NavSec from '../home/NavSec'
 import Reveal from 'react-reveal/Reveal'
 import PageInfo from './PageInfo'
 import Project from './Project'
+import Footer from '../footer/Footer'
 
 const Portfolio = () => {
 	return (
@@ -15,9 +16,10 @@ const Portfolio = () => {
 				<PageInfo />
 			</Reveal>
 
-			<Reveal effect='portfolioAnim' duration='1260'>
+			<Reveal effect='portfolioAnim' duration='1800'>
 				<Project />
 			</Reveal>
+			<Footer />
 		</>
 	)
 }
