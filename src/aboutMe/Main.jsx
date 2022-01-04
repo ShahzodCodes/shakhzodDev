@@ -22,6 +22,9 @@ const Main = () => {
 							<p className='aboutMeText'>{about.lastText}</p>
 						</span>
 					</div>
+					<div className='graduation'>
+						The Graduation Ceremony at PDP IT Academy:
+					</div>
 					<div className='secondData'>
 						<div>
 							<img
@@ -31,13 +34,12 @@ const Main = () => {
 							/>
 							<p className='commentText'>With my teacher, Sardor Muhtorov</p>
 						</div>
-						<div>Graduation Ceremony at PDP IT Academy</div>
 						<div>
-							{/* <img
+							<img
 								src={about.withGroup}
 								alt='Teacher image'
 								className='withGroup'
-							/> */}
+							/>
 							<p className='commentText'>With my group, G96</p>
 						</div>
 					</div>

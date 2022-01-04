@@ -47,29 +47,22 @@ const AboutInfo = () => {
 								<span></span>
 								Portfolio
 							</Link>
-							{/* <a href='#'>
-								<span></span>
-								<span></span>
-								<span></span>
-								<span></span>
-								Neon button
-							</a> */}
 						</div>
 						<div className='socialNet'>
 							<a className='links' href='#' target='_blank'>
-								<YouTubeIcon className='socialIcon' />
-							</a>
-							<a className='links' href='#' target='_blank'>
-								<GitHubIcon className='socialIcon' />
+								<FacebookIcon className='socialIcon' />
 							</a>
 							<a className='links' href='#' target='_blank'>
 								<LinkedInIcon className='socialIcon' />
 							</a>
 							<a className='links' href='#' target='_blank'>
-								<FacebookIcon className='socialIcon' />
+								<TelegramIcon className='socialIcon' />
 							</a>
 							<a className='links' href='#' target='_blank'>
-								<TelegramIcon className='socialIcon' />
+								<YouTubeIcon className='socialIcon' />
+							</a>
+							<a className='links' href='#' target='_blank'>
+								<GitHubIcon className='socialIcon' />
 							</a>
 						</div>
 					</div>
