@@ -328,18 +328,63 @@ nav.fixed {
 				}
 			}
 		}
-		&:nth-child(2) {
-			.projectCard {
-				flex-direction: row-reverse;
-				.projectInfo {
-					margin: 30px 0;
-					.projectAbout {
-						.projectDesc {
-							width: 75%;
-						}
-					}
-				}
+		// &:nth-child(2) {
+		// 	.projectCard {
+		// 		flex-direction: row-reverse;
+		// 		.projectInfo {
+		// 			margin: 30px 0;
+		// 			.projectAbout {
+		// 				.projectDesc {
+		// 					width: 75%;
+		// 				}
+		// 			}
+		// 		}
+		// 	}
+		// }
+	}
+}
+
+//AboutMe
+
+.aboutMeMain {
+	// display: flex;
+	padding: 80px;
+	.firstData {
+		display: flex;
+		.myPhoto {
+			height: 30% !important;
+			width: 30%;
+			border-radius: 40px;
+			background-color: red;
+		}
+		span {
+			.aboutMeText {
+				padding: 0 0 30px 50px;
+				font-size: 23px;
+				width: 95%;
+				color: white;
+				font-family: 'Montserrat', sans-serif;
 			}
+		}
+	}
+	.secondData {
+		width: 100%;
+		margin-top: 50px;
+		display: flex;
+		justify-content: space-between;
+		.withTeacher {
+			width: 30% !important;
+			height: 50%;
+			border-radius: 40px;
+		}
+		.commentText {
+			color: whitesmoke;
+			font-size: 17px;
+			font-weight: 400;
+			margin-top: 30px;
+			// background-color: rgb(167, 167, 162);
+			// padding: 20px 0;
+			// box-sizing: border-box;
 		}
 	}
 }

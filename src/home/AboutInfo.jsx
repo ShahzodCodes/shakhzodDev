@@ -33,7 +33,7 @@ const AboutInfo = () => {
 							<p className='info'>{portfolio.info}</p>
 						</Reveal>
 						<div className='buttons'>
-							<Link className='linkBtn' to='/'>
+							<Link className='linkBtn' to='/about-me'>
 								<span></span>
 								<span></span>
 								<span></span>

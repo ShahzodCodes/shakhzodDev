@@ -47,7 +47,7 @@ const NavSec = () => {
 							<Link to='/'>Setup</Link>
 						</NavItem>
 						<NavItem>
-							<Link to='/'>About</Link>
+							<Link to='/about-me'>About</Link>
 						</NavItem>
 					</Nav>
 				</Collapse>
