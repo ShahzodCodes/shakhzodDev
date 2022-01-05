@@ -14,6 +14,8 @@ const Project = () => {
 		)
 	}, [])
 
+	console.log('TEST db: ', projects)
+
 	return (
 		<>
 			<Container>

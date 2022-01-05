@@ -12,9 +12,9 @@ const Main = () => {
 
 	return (
 		<div className='aboutMeMain'>
-			{aboutInfos.map(about => (
+			{aboutInfos.map((about, index) => (
 				<>
-					<div className='firstData'>
+					<div className='firstData' key={index}>
 						<img src={about.myPhoto} alt='my image' className='myPhoto' />
 						<span>
 							<p className='aboutMeText'>{about.name}</p>
@@ -23,7 +23,7 @@ const Main = () => {
 						</span>
 					</div>
 					<div className='graduation'>
-						The Graduation Ceremony at PDP IT Academy:
+						The Graduation Ceremony At PDP IT Academy:
 					</div>
 					<div className='secondData'>
 						<div>

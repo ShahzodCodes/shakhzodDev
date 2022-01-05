@@ -26,7 +26,10 @@ const AboutInfo = () => {
 	return (
 		<div className='aboutInfo'>
 			{portfolios.map(portfolio => (
-				<div className='wrapper'>
+				<>
+					<div className='side2'>
+						<img className='myImage' src={portfolio.image} alt='My Image' />
+					</div>
 					<div className='side1'>
 						<Reveal effect='homeText' duration='1250'>
 							<h1 className='name'>{portfolio.name}</h1>
@@ -56,21 +59,17 @@ const AboutInfo = () => {
 								<LinkedInIcon className='socialIcon' />
 							</a>
 							<a className='links' href='#' target='_blank'>
+								<GitHubIcon className='socialIcon' />
+							</a>
+							<a className='links' href='#' target='_blank'>
 								<TelegramIcon className='socialIcon' />
 							</a>
 							<a className='links' href='#' target='_blank'>
 								<YouTubeIcon className='socialIcon' />
 							</a>
-							<a className='links' href='#' target='_blank'>
-								<GitHubIcon className='socialIcon' />
-							</a>
 						</div>
 					</div>
-
-					<div className='side2'>
-						<img className='myImage' src={portfolio.image} alt='My Image' />
-					</div>
-				</div>
+				</>
 			))}
 		</div>
 	)

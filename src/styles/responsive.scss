@@ -1,0 +1,375 @@
+$homeButtonColor: #2b2b2b;
+$homeButtonColor2: #2b2b2b;
+$togglerColor: #03e9f4;
+
+// HomePage
+
+@media screen and (max-width: 1200px) {
+	nav {
+		padding: 12px !important;
+		.navbar-brand {
+			font-size: 22px;
+			padding: 0 10px;
+		}
+		.navbar-toggler {
+			background-color: $togglerColor;
+			border-radius: 0;
+			span {
+				font-size: 13px;
+			}
+		}
+		.navbar-nav {
+			.nav-item {
+				margin: 17px 20px !important;
+				font-size: 18px !important;
+			}
+		}
+	}
+	.aboutInfo {
+		display: flex;
+		padding: 75px 25px;
+		.side2 {
+			width: 40%;
+			.myImage {
+				width: 100%;
+			}
+		}
+		.side1 {
+			width: 60%;
+			margin: 0;
+			.name {
+				font-size: 50px;
+				font-weight: 700;
+			}
+			.info {
+				font-size: 25px;
+				width: 90%;
+				margin: 24px 0 25px 0;
+			}
+			.buttons {
+				margin-top: 40px;
+				.linkBtn {
+					padding: 15px 18px;
+					font-size: 20px;
+				}
+			}
+			.socialNet {
+				margin-top: 80px;
+				.links {
+					.socialIcon {
+						font-size: 35px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	nav {
+		padding: 12px !important;
+		.navbar-brand {
+			font-size: 22px;
+			padding: 0 10px;
+		}
+		.navbar-toggler {
+			background-color: $togglerColor;
+			border-radius: 0;
+			span {
+				font-size: 13px;
+			}
+		}
+		.navbar-nav {
+			.nav-item {
+				margin: 17px 20px !important;
+				font-size: 18px !important;
+			}
+		}
+	}
+	.aboutInfo {
+		display: flex;
+		padding: 75px 25px;
+		.side2 {
+			width: 40%;
+			.myImage {
+				width: 100%;
+			}
+		}
+		.side1 {
+			width: 60%;
+			margin: 0;
+			.name {
+				font-size: 30px;
+			}
+			.info {
+				font-size: 22px;
+				width: 100%;
+				margin: 24px 0 25px 0;
+			}
+			.buttons {
+				.linkBtn {
+					padding: 12px 18px;
+					font-size: 20px;
+				}
+			}
+			.socialNet {
+				margin-top: 30px;
+				.links {
+					.socialIcon {
+						font-size: 35px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	nav {
+		padding: 12px !important;
+		.navbar-brand {
+			font-size: 18px;
+			padding: 0 10px;
+		}
+		.navbar-toggler {
+			background-color: $togglerColor;
+			border-radius: 0;
+			span {
+				font-size: 13px;
+			}
+		}
+		.navbar-nav {
+			.nav-item {
+				margin: 17px auto !important;
+				font-size: 17px !important;
+			}
+		}
+	}
+	.aboutInfo {
+		display: inline;
+		text-align: center;
+		// padding: 30px 0 30px 0;
+		.side2 {
+			width: 100% !important;
+			margin: 0 auto;
+			.myImage {
+				width: 65%;
+				height: 100%;
+			}
+		}
+		.side1 {
+			width: 100%;
+			.name {
+				font-size: 34px;
+			}
+			.info {
+				font-size: 25px;
+				width: 100%;
+				padding: 0 15px;
+				margin: 25px 0 25px;
+			}
+			.buttons {
+				.linkBtn {
+					padding: 15px 25px;
+					font-size: 20px;
+				}
+			}
+			.socialNet {
+				.links {
+					padding: 0 10px 0 10px;
+					.socialIcon {
+						font-size: 45px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+	nav {
+		padding: 12px !important;
+		.navbar-brand {
+			font-size: 18px;
+			padding: 0 10px;
+		}
+		.navbar-toggler {
+			background-color: $togglerColor;
+			border-radius: 0;
+			span {
+				font-size: 13px;
+			}
+		}
+		.navbar-nav {
+			.nav-item {
+				margin: 17px auto !important;
+				font-size: 17px !important;
+			}
+		}
+	}
+	.aboutInfo {
+		display: inline;
+		text-align: center;
+		.side2 {
+			width: 100% !important;
+			margin: 0 auto;
+			.myImage {
+				width: 70%;
+				height: 100%;
+			}
+		}
+		.side1 {
+			width: 100%;
+			.name {
+				font-size: 34px;
+			}
+			.info {
+				font-size: 18px;
+				width: 100%;
+				padding: 0 15px;
+				margin: 15px 0 25px;
+			}
+			.buttons {
+				.linkBtn {
+					padding: 13px 13px;
+					font-size: 15px;
+				}
+			}
+			.socialNet {
+				.links {
+					padding: 0 10px 0 10px;
+					.socialIcon {
+						font-size: 35px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 370px) {
+	nav {
+		padding: 12px !important;
+		.navbar-brand {
+			font-size: 18px;
+			padding: 0 10px;
+		}
+		.navbar-toggler {
+			background-color: $togglerColor;
+			border-radius: 0;
+			width: 36px;
+			height: 30px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0;
+			span {
+				font-size: 10px;
+			}
+		}
+		.navbar-nav {
+			.nav-item {
+				margin: 17px auto !important;
+				font-size: 17px !important;
+			}
+		}
+	}
+	.aboutInfo {
+		display: inline;
+		// padding: 30px 0 30px 0;
+		text-align: center;
+		.side2 {
+			width: 100% !important;
+			margin: 0 auto;
+			.myImage {
+				width: 85%;
+				height: 100%;
+			}
+		}
+		.side1 {
+			width: 100%;
+			.name {
+				font-size: 30px;
+			}
+			.info {
+				font-size: 18px;
+				width: 100%;
+				padding: 0 15px;
+				margin: 15px 0 25px;
+			}
+			.buttons {
+				.linkBtn {
+					padding: 8px 8px;
+					font-size: 13px;
+				}
+			}
+			.socialNet {
+				.links {
+					// padding: 0 10px 0 10px;
+					.socialIcon {
+						font-size: 30px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 320px) and (max-width: 330px) {
+	nav {
+		padding: 12px !important;
+		.navbar-brand {
+			font-size: 18px;
+			padding: 0 10px;
+		}
+		.navbar-toggler {
+			background-color: $togglerColor;
+			border-radius: 0;
+			span {
+				font-size: 13px;
+			}
+		}
+		.navbar-nav {
+			.nav-item {
+				margin: 17px auto !important;
+				font-size: 17px !important;
+			}
+		}
+	}
+	.aboutInfo {
+		display: inline;
+		text-align: center;
+		// padding: 30px 0 30px 0;
+		.side2 {
+			width: 100% !important;
+			margin: 0 auto;
+			.myImage {
+				width: 90%;
+				height: 100%;
+			}
+		}
+		.side1 {
+			width: 100%;
+			.name {
+				font-size: 34px;
+			}
+			.info {
+				font-size: 18px;
+				width: 100%;
+				padding: 0 15px;
+				margin: 15px 0 25px;
+			}
+			.buttons {
+				.linkBtn {
+					padding: 10px 10px;
+					font-size: 15px;
+				}
+			}
+			.socialNet {
+				.links {
+					padding: 0 10px 0 10px;
+				}
+			}
+		}
+	}
+}

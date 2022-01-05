@@ -79,11 +79,11 @@ nav {
 		}
 	}
 }
+
 nav.fixed {
-	padding: 15px 80px;
+	overflow: hidden;
 	position: fixed;
 	top: 0;
-	left: 0;
 	z-index: 99;
 	width: 100%;
 	backdrop-filter: blur(10px);
@@ -98,10 +98,6 @@ nav.fixed {
 	justify-content: center;
 	flex-direction: row-reverse;
 	padding: 90px 80px 0 80px;
-	.wrapper {
-		display: flex;
-		justify-content: space-between;
-	}
 	.side1 {
 		width: 55%;
 		margin: 20px 0 0 0;
@@ -246,7 +242,7 @@ nav.fixed {
 			.links {
 				padding: 0 30px 0 0;
 				.socialIcon {
-					font-size: 35px;
+					font-size: 40px;
 					color: #ffffff;
 					transition: all 0.25s linear 0s;
 					&:hover {
@@ -259,11 +255,10 @@ nav.fixed {
 	}
 	.side2 {
 		width: 33%;
+		// background-color: red;
+		margin-left: auto;
 		.myImage {
 			width: 100%;
-			display: flex;
-			margin-left: auto;
-			height: 100%;
 		}
 	}
 }
