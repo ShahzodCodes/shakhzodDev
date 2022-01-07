@@ -44,10 +44,10 @@ const NavSec = () => {
 							<Link to='/portfolio'>Portfolio</Link>
 						</NavItem>
 						<NavItem>
-							<Link to='/'>Setup</Link>
+							<Link to='/about'>About</Link>
 						</NavItem>
 						<NavItem>
-							<Link to='/about-me'>About</Link>
+							<Link to='/blog'>Blog</Link>
 						</NavItem>
 					</Nav>
 				</Collapse>

@@ -6,6 +6,7 @@ import './styles/animation.scss'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Portfolio from './portfolio/portfolio'
 import About from './aboutMe/About'
+import Blog from './blog/Blog'
 
 function Routing() {
 	return (
@@ -13,7 +14,8 @@ function Routing() {
 			<Switch>
 				<Route path='/' exact component={HomeMain} />
 				<Route path='/portfolio' exact component={Portfolio} />
-				<Route path='/about-me' exact component={About} />
+				<Route path='/blog' exact component={Blog} />
+				<Route path='/about' exact component={About} />
 			</Switch>
 		</Router>
 	)

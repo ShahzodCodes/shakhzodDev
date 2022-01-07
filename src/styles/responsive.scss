@@ -339,7 +339,6 @@ $togglerColor: #03e9f4;
 	.aboutInfo {
 		display: inline;
 		text-align: center;
-		// padding: 30px 0 30px 0;
 		.side2 {
 			width: 100% !important;
 			margin: 0 auto;
@@ -530,6 +529,7 @@ $togglerColor: #03e9f4;
 
 @media screen and (max-width: 500px) {
 	.titles {
+		padding: 0 10px;
 		.title1 {
 			font-size: 35px;
 		}
@@ -581,6 +581,7 @@ $togglerColor: #03e9f4;
 
 @media screen and (max-width: 370px) {
 	.titles {
+		padding: 0 10px;
 		.title1 {
 			font-size: 34px;
 		}
@@ -629,11 +630,12 @@ $togglerColor: #03e9f4;
 
 @media (min-width: 320px) and (max-width: 330px) {
 	.titles {
+		padding: 0 10px;
 		.title1 {
-			font-size: 34px;
+			font-size: 32px;
 		}
 		.title2 {
-			font-size: 22px;
+			font-size: 20px;
 		}
 	}
 	.row {
@@ -671,6 +673,229 @@ $togglerColor: #03e9f4;
 						}
 					}
 				}
+			}
+		}
+	}
+}
+
+// AboutMePAge
+
+@media screen and (max-width: 1200px) {
+	.aboutMeMain {
+		padding: 10px 30px;
+		.firstData {
+			display: flex;
+			.myPhoto {
+				width: 40%;
+				display: flex;
+				margin: 0 auto;
+			}
+			span {
+				.aboutMeText {
+					margin-top: 20px;
+					margin-left: 30px;
+					padding: 0;
+					font-size: 22px;
+				}
+			}
+		}
+		.graduation {
+			font-size: 30px;
+		}
+		.secondData {
+			margin: 35px 0;
+			display: flex;
+			&:nth-child(2) {
+				padding: 0 !important;
+			}
+			.commentText {
+				font-size: 20px;
+				margin-top: 5px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.aboutMeMain {
+		padding: 10px 30px;
+		.firstData {
+			display: inline;
+			.myPhoto {
+				display: flex;
+				margin: 0 auto;
+			}
+			span {
+				.aboutMeText {
+					margin-top: 20px;
+					padding: 0;
+					font-size: 22px;
+					width: 100%;
+				}
+			}
+		}
+		.graduation {
+			font-size: 30px;
+		}
+		.secondData {
+			margin-top: 35px;
+			display: inline;
+			.withTeacher,
+			.withGroup {
+				padding: 0;
+				margin-top: 20px;
+			}
+			.commentText {
+				font-size: 20px;
+				margin-top: 5px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.aboutMeMain {
+		padding: 10px 30px;
+		.firstData {
+			display: inline;
+			.myPhoto {
+				width: 100%;
+				display: flex;
+				margin: 0 auto;
+			}
+			span {
+				.aboutMeText {
+					margin-top: 20px;
+					padding: 0;
+					font-size: 22px;
+					width: 100%;
+				}
+			}
+		}
+		.graduation {
+			font-size: 30px;
+		}
+		.secondData {
+			margin-top: 35px;
+			display: inline;
+			.withTeacher,
+			.withGroup {
+				padding: 0;
+				margin-top: 20px;
+			}
+			.commentText {
+				font-size: 20px;
+				margin-top: 5px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.aboutMeMain {
+		padding: 0 10px;
+		.firstData {
+			display: inline;
+			.myPhoto {
+				width: 100%;
+				display: flex;
+				margin: 0 auto;
+			}
+			span {
+				.aboutMeText {
+					margin-top: 20px;
+					padding: 0;
+					font-size: 17px;
+					width: 100%;
+				}
+			}
+		}
+		.graduation {
+			font-size: 22px;
+		}
+		.secondData {
+			margin-top: 35px;
+			display: inline;
+			.withTeacher,
+			.withGroup {
+				padding: 0;
+				margin-top: 20px;
+			}
+			.commentText {
+				font-size: 16px;
+				margin-top: 5px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 370px) {
+	.aboutMeMain {
+		padding: 0 10px;
+		.firstData {
+			display: inline;
+			.myPhoto {
+				width: 100%;
+			}
+			span {
+				.aboutMeText {
+					margin-top: 20px;
+					padding: 0;
+					font-size: 17px;
+					width: 100%;
+				}
+			}
+		}
+		.graduation {
+			font-size: 22px;
+		}
+		.secondData {
+			margin-top: 35px;
+			display: inline;
+			.withTeacher,
+			.withGroup {
+				padding: 0;
+				margin-top: 20px;
+			}
+			.commentText {
+				font-size: 16px;
+				margin-top: 5px;
+			}
+		}
+	}
+}
+
+@media (min-width: 320px) and (max-width: 330px) {
+	.aboutMeMain {
+		padding: 0 10px;
+		.firstData {
+			display: inline;
+			.myPhoto {
+				width: 100%;
+			}
+			span {
+				.aboutMeText {
+					margin-top: 20px;
+					padding: 0;
+					font-size: 17px;
+					width: 100%;
+				}
+			}
+		}
+		.graduation {
+			font-size: 22px;
+		}
+		.secondData {
+			margin-top: 35px;
+			display: inline;
+			.withTeacher,
+			.withGroup {
+				padding: 0;
+				margin-top: 20px;
+			}
+			.commentText {
+				font-size: 16px;
+				margin-top: 5px;
 			}
 		}
 	}
