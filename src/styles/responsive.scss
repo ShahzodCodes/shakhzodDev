@@ -126,16 +126,16 @@ $togglerColor: #03e9f4;
 
 @media screen and (max-width: 767px) {
 	nav {
-		padding: 12px !important;
+		padding: 10px !important;
 		.navbar-brand {
-			font-size: 18px;
+			font-size: 25px;
 			padding: 0;
 		}
 		.navbar-toggler {
 			background-color: $togglerColor;
 			border-radius: 0;
 			span {
-				font-size: 13px;
+				font-size: 18px;
 			}
 		}
 		.navbar-nav {
@@ -376,13 +376,66 @@ $togglerColor: #03e9f4;
 
 // PortfolioPage
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1200px) {
 	.titles {
 		.title1 {
-			font-size: 34px;
+			font-size: 35px;
 		}
 		.title2 {
-			font-size: 22px;
+			font-size: 25px;
+		}
+	}
+	.row {
+		margin-top: 30px;
+		.col-md-12 {
+			padding-top: 50px;
+			.projectCard {
+				display: flex;
+				margin: 10px 0;
+				.projectImage {
+					width: 50%;
+				}
+				.projectInfo {
+					margin: 0;
+					margin-left: 30px;
+					// background-color: red;
+					.projectAbout {
+						.projectName {
+							font-size: 25px;
+						}
+						.projectDesc {
+							// width: 100%;
+							font-size: 19px;
+							display: flex;
+							justify-content: space-between;
+							margin: 10px 0 20px;
+						}
+					}
+					.projectButtons {
+						display: flex;
+						justify-content: space-between;
+						.buttons {
+							padding: 14px 15px;
+							font-size: 16px;
+							display: flex;
+							&:nth-child(2) {
+								margin-left: 7px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.titles {
+		.title1 {
+			font-size: 35px;
+		}
+		.title2 {
+			font-size: 25px;
 		}
 	}
 	.row {
@@ -399,11 +452,11 @@ $togglerColor: #03e9f4;
 					margin: 30px 0;
 					.projectAbout {
 						.projectName {
-							font-size: 22px;
+							font-size: 25px;
 						}
 						.projectDesc {
 							// width: 100%;
-							font-size: 17px;
+							font-size: 19px;
 							display: flex;
 							justify-content: space-between;
 							margin: 10px 0 20px;
@@ -413,7 +466,106 @@ $togglerColor: #03e9f4;
 						display: flex;
 						justify-content: space-between;
 						.buttons {
-							padding: 12px 14px;
+							padding: 14px 15px;
+							font-size: 16px;
+							display: flex;
+							&:nth-child(2) {
+								margin-left: 7px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.titles {
+		.title1 {
+			font-size: 35px;
+		}
+		.title2 {
+			font-size: 25px;
+		}
+	}
+	.row {
+		margin-top: 30px;
+		.col-md-12 {
+			padding: 10px 0;
+			.projectCard {
+				display: inline;
+				margin: 10px 0;
+				.projectImage {
+					width: 100%;
+				}
+				.projectInfo {
+					margin: 30px 10px;
+					.projectAbout {
+						.projectName {
+							font-size: 25px;
+						}
+						.projectDesc {
+							font-size: 19px;
+							margin: 10px 0 20px;
+						}
+					}
+					.projectButtons {
+						display: flex;
+						justify-content: space-between;
+						.buttons {
+							padding: 14px 15px;
+							font-size: 16px;
+							display: flex;
+							&:nth-child(2) {
+								margin-left: 7px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.titles {
+		.title1 {
+			font-size: 35px;
+		}
+		.title2 {
+			font-size: 25px;
+		}
+	}
+	.row {
+		margin-top: 30px;
+		.col-md-12 {
+			padding-top: 10px;
+			.projectCard {
+				display: inline;
+				margin: 10px 0;
+				.projectImage {
+					width: 100%;
+				}
+				.projectInfo {
+					margin: 30px 10px;
+					.projectAbout {
+						.projectName {
+							font-size: 25px;
+						}
+						.projectDesc {
+							// width: 100%;
+							font-size: 19px;
+							display: flex;
+							justify-content: space-between;
+							margin: 10px 0 20px;
+						}
+					}
+					.projectButtons {
+						display: flex;
+						justify-content: space-between;
+						.buttons {
+							padding: 14px 15px;
 							font-size: 16px;
 							display: flex;
 							&:nth-child(2) {
@@ -447,16 +599,13 @@ $togglerColor: #03e9f4;
 					width: 100%;
 				}
 				.projectInfo {
-					margin: 30px 0;
+					margin: 30px 10px;
 					.projectAbout {
 						.projectName {
-							font-size: 22px;
+							font-size: 20px;
 						}
 						.projectDesc {
-							// width: 100%;
-							font-size: 17px;
-							display: flex;
-							justify-content: space-between;
+							font-size: 16px;
 							margin: 10px 0 20px;
 						}
 					}
@@ -465,7 +614,7 @@ $togglerColor: #03e9f4;
 						justify-content: space-between;
 						.buttons {
 							padding: 12px 14px;
-							font-size: 16px;
+							font-size: 15px;
 							display: flex;
 							&:nth-child(2) {
 								margin-left: 7px;
@@ -498,7 +647,7 @@ $togglerColor: #03e9f4;
 					width: 100%;
 				}
 				.projectInfo {
-					margin: 30px 0;
+					margin: 30px 10px;
 					.projectAbout {
 						.projectName {
 							font-size: 22px;
