@@ -381,13 +381,21 @@ nav.fixed {
 	padding: 20px 0 0;
 	border-top: 1px solid #666666;
 	text-align: center;
-
 	p {
 		font-size: 17px;
 		color: white;
 		font-family: 'Montserrat', sans-serif;
 		svg {
 			color: rgb(255, 0, 0);
+		}
+	}
+	a {
+		color: white;
+		margin-left: 5px;
+		text-decoration: none;
+		font-weight: bold;
+		&:hover {
+			color: $socialIcons;
 		}
 	}
 }

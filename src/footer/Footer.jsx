@@ -5,7 +5,11 @@ const Footer = () => {
 	return (
 		<div className='footer'>
 			<p>
-				© ShahzodDev 2021 - {new Date().getFullYear()} | Made with
+				©
+				<a target='_blank' href='https://www.facebook.com/ShahzodDev/'>
+					ShahzodDev
+				</a>{' '}
+				2021 - {new Date().getFullYear()} | Made with
 				<FavoriteIcon />
 			</p>
 		</div>

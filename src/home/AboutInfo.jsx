@@ -17,11 +17,13 @@ const AboutInfo = () => {
 		)
 	}, [])
 
-	// useEffect(() => {
-	// 	db.collection('shahzodDev').onSnapshot(snapshot =>
-	// 		setPortfolios(snapshot.docs.map(doc => doc.data()))
-	// 	)
-	// }, [])
+	const [links, setLinks] = useState([])
+
+	useEffect(() => {
+		db.collection('socialLinks').onSnapshot(snapshot =>
+			setLinks(snapshot.docs.map(doc => doc.data()))
+		)
+	}, [])
 
 	return (
 		<div className='aboutInfo'>
@@ -52,21 +54,25 @@ const AboutInfo = () => {
 							</Link>
 						</div>
 						<div className='socialNet'>
-							<a className='links' href='#' target='_blank'>
-								<FacebookIcon className='socialIcon' />
-							</a>
-							<a className='links' href='#' target='_blank'>
-								<LinkedInIcon className='socialIcon' />
-							</a>
-							<a className='links' href='#' target='_blank'>
-								<GitHubIcon className='socialIcon' />
-							</a>
-							<a className='links' href='#' target='_blank'>
-								<TelegramIcon className='socialIcon' />
-							</a>
-							<a className='links' href='#' target='_blank'>
-								<YouTubeIcon className='socialIcon' />
-							</a>
+							{links.map(media => (
+								<>
+									<a className='links' href={media.facebook} target='_blank'>
+										<FacebookIcon className='socialIcon' />
+									</a>
+									<a className='links' href={media.linkedin} target='_blank'>
+										<LinkedInIcon className='socialIcon' />
+									</a>
+									<a className='links' href={media.gitHub} target='_blank'>
+										<GitHubIcon className='socialIcon' />
+									</a>
+									<a className='links' href={media.telegram} target='_blank'>
+										<TelegramIcon className='socialIcon' />
+									</a>
+									<a className='links' href={media.youTuBe} target='_blank'>
+										<YouTubeIcon className='socialIcon' />
+									</a>
+								</>
+							))}
 						</div>
 					</div>
 				</>
