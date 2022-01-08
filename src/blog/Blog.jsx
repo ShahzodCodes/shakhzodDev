@@ -1,6 +1,9 @@
 import React from 'react'
 import NavSec from '../home/NavSec'
 import Reveal from 'react-reveal/Reveal'
+import PageInfo from './PageInfo'
+import BlogContent from './BlogContent'
+import Footer from '../footer/Footer'
 
 const Blog = () => {
 	return (
@@ -8,13 +11,13 @@ const Blog = () => {
 			<Reveal effect='animNav' duration='750'>
 				<NavSec />
 			</Reveal>
-			<h1
-				style={{
-					color: 'white',
-					textAlign: 'center'
-				}}>
-				BlogPage Coming soon...
-			</h1>
+			<Reveal effect='homeText' duration='1250'>
+				<PageInfo />
+			</Reveal>
+			<Reveal effect='portfolioAnim' duration='1800'>
+				<BlogContent />
+			</Reveal>
+			<Footer />
 		</>
 	)
 }

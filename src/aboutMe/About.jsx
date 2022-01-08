@@ -15,8 +15,9 @@ const About = () => {
 			<Reveal effect='homeText' duration='1250'>
 				<PageInfo />
 			</Reveal>
-
-			<Main />
+			<Reveal effect='portfolioAnim' duration='1800'>
+				<Main />
+			</Reveal>
 			<Footer />
 		</>
 	)
