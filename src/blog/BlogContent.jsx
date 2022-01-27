@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import db from '../firebase/config'
 import { Col, Container, Row } from 'reactstrap'
+import countapi from 'countapi-js'
+
+// countapi.visits().then(result => {
+// 	console.log('Coming from CountAPI: ' + result.value)
+// })
 
 const BlogContent = () => {
 	const [blogs, setBlogs] = useState([])
@@ -11,16 +16,22 @@ const BlogContent = () => {
 		)
 	}, [])
 
+	countapi.visits('global').then(result => {
+		console.log('Coming from CountAPI: ' + result.value)
+	})
+
 	return (
 		<>
 			<Container>
-				{/* <h1 style={{ color: 'white' }}>Coming Soon</h1> */}
 				<Row>
 					{blogs.map((blog, index) => (
-						<Col md='12' key={index}>
-							<a href='#lorem'>{blog.postName}</a>
-							<div id='lorem'>{blog.postText}</div>
-						</Col>
+						<>
+							<Col md='12' key={index}>
+								<a href='#lorem'>{blog.postName}</a>
+								<div id='lorem'>{blog.postText}</div>
+							</Col>
+							<div>TEST {}</div>
+						</>
 					))}
 				</Row>
 			</Container>
