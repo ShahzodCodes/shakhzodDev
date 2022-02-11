@@ -1,0 +1,903 @@
+@media screen and (max-width: 1200px) {
+  nav {
+    padding: 12px !important;
+  }
+  nav .navbar-brand {
+    font-size: 22px;
+    padding: 0 10px;
+  }
+  nav .navbar-toggler {
+    background-color: #03e9f4;
+    border-radius: 0;
+  }
+  nav .navbar-toggler span {
+    font-size: 13px;
+  }
+  nav .navbar-nav .nav-item {
+    margin: 17px 20px !important;
+    font-size: 18px !important;
+  }
+  .aboutInfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 75px 25px;
+  }
+  .aboutInfo .side2 {
+    width: 40%;
+  }
+  .aboutInfo .side2 .myImage {
+    width: 100%;
+  }
+  .aboutInfo .side1 {
+    width: 60%;
+    margin: 0;
+  }
+  .aboutInfo .side1 .name {
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .aboutInfo .side1 .info {
+    font-size: 25px;
+    width: 90%;
+    margin: 24px 0 25px 0;
+  }
+  .aboutInfo .side1 .buttons {
+    margin-top: 40px;
+  }
+  .aboutInfo .side1 .buttons .linkBtn {
+    padding: 15px 18px;
+    font-size: 20px;
+  }
+  .aboutInfo .side1 .socialNet {
+    margin-top: 80px;
+  }
+  .aboutInfo .side1 .socialNet .links .socialIcon {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  nav {
+    padding: 12px !important;
+  }
+  nav .navbar-brand {
+    font-size: 22px;
+    padding: 0 10px;
+  }
+  nav .navbar-toggler {
+    background-color: #03e9f4;
+    border-radius: 0;
+  }
+  nav .navbar-toggler span {
+    font-size: 13px;
+  }
+  nav .navbar-nav .nav-item {
+    margin: 17px 20px !important;
+    font-size: 18px !important;
+  }
+  .aboutInfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 75px 25px;
+  }
+  .aboutInfo .side2 {
+    width: 40%;
+  }
+  .aboutInfo .side2 .myImage {
+    width: 100%;
+  }
+  .aboutInfo .side1 {
+    width: 60%;
+    margin: 0;
+  }
+  .aboutInfo .side1 .name {
+    font-size: 30px;
+  }
+  .aboutInfo .side1 .info {
+    font-size: 22px;
+    width: 100%;
+    margin: 24px 0 25px 0;
+  }
+  .aboutInfo .side1 .buttons .linkBtn {
+    padding: 12px 18px;
+    font-size: 20px;
+  }
+  .aboutInfo .side1 .socialNet {
+    margin-top: 30px;
+  }
+  .aboutInfo .side1 .socialNet .links .socialIcon {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  nav {
+    padding: 10px !important;
+  }
+  nav .navbar-brand {
+    font-size: 25px;
+    padding: 0;
+  }
+  nav .navbar-toggler {
+    background-color: #03e9f4;
+    border-radius: 0;
+  }
+  nav .navbar-toggler span {
+    font-size: 18px;
+  }
+  nav .navbar-nav .nav-item {
+    margin: 17px auto !important;
+    font-size: 17px !important;
+  }
+  .aboutInfo {
+    display: inline;
+    text-align: center;
+  }
+  .aboutInfo .side2 {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+  .aboutInfo .side2 .myImage {
+    width: 65%;
+    height: 100%;
+  }
+  .aboutInfo .side1 {
+    width: 100%;
+  }
+  .aboutInfo .side1 .name {
+    font-size: 34px;
+  }
+  .aboutInfo .side1 .info {
+    font-size: 25px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 25px 0 25px;
+  }
+  .aboutInfo .side1 .buttons .linkBtn {
+    padding: 15px 25px;
+    font-size: 20px;
+  }
+  .aboutInfo .side1 .socialNet .links {
+    padding: 0 10px 0 10px;
+  }
+  .aboutInfo .side1 .socialNet .links .socialIcon {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  nav {
+    padding: 12px !important;
+  }
+  nav .navbar-brand {
+    font-size: 18px;
+    padding: 0;
+  }
+  nav .navbar-toggler {
+    background-color: #03e9f4;
+    border-radius: 0;
+  }
+  nav .navbar-toggler span {
+    font-size: 13px;
+  }
+  nav .navbar-nav .nav-item {
+    margin: 17px auto !important;
+    font-size: 17px !important;
+  }
+  .aboutInfo {
+    display: inline;
+    text-align: center;
+  }
+  .aboutInfo .side2 {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+  .aboutInfo .side2 .myImage {
+    width: 70%;
+    height: 100%;
+  }
+  .aboutInfo .side1 {
+    width: 100%;
+  }
+  .aboutInfo .side1 .name {
+    font-size: 34px;
+  }
+  .aboutInfo .side1 .info {
+    font-size: 18px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 15px 0 25px;
+  }
+  .aboutInfo .side1 .buttons .linkBtn {
+    padding: 13px 13px;
+    font-size: 15px;
+  }
+  .aboutInfo .side1 .socialNet .links {
+    padding: 0 10px 0 10px;
+  }
+  .aboutInfo .side1 .socialNet .links .socialIcon {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  nav {
+    padding: 12px !important;
+  }
+  nav .navbar-brand {
+    font-size: 18px;
+    padding: 0;
+  }
+  nav .navbar-toggler {
+    background-color: #03e9f4;
+    border-radius: 0;
+    width: 36px;
+    height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+  }
+  nav .navbar-toggler span {
+    font-size: 10px;
+  }
+  nav .navbar-nav .nav-item {
+    margin: 17px auto !important;
+    font-size: 17px !important;
+  }
+  .aboutInfo {
+    display: inline;
+    text-align: center;
+  }
+  .aboutInfo .side2 {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+  .aboutInfo .side2 .myImage {
+    width: 85%;
+    height: 100%;
+  }
+  .aboutInfo .side1 {
+    width: 100%;
+  }
+  .aboutInfo .side1 .name {
+    font-size: 30px;
+  }
+  .aboutInfo .side1 .info {
+    font-size: 18px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 15px 0 25px;
+  }
+  .aboutInfo .side1 .buttons .linkBtn {
+    padding: 8px 8px;
+    font-size: 13px;
+  }
+  .aboutInfo .side1 .socialNet .links .socialIcon {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 330px) {
+  nav {
+    padding: 12px !important;
+  }
+  nav .navbar-brand {
+    font-size: 18px;
+    padding: 0;
+  }
+  nav .navbar-toggler {
+    background-color: #03e9f4;
+    border-radius: 0;
+  }
+  nav .navbar-toggler span {
+    font-size: 13px;
+  }
+  nav .navbar-nav .nav-item {
+    margin: 17px auto !important;
+    font-size: 17px !important;
+  }
+  .aboutInfo {
+    display: inline;
+    text-align: center;
+  }
+  .aboutInfo .side2 {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+  .aboutInfo .side2 .myImage {
+    width: 90%;
+    height: 100%;
+  }
+  .aboutInfo .side1 {
+    width: 100%;
+  }
+  .aboutInfo .side1 .name {
+    font-size: 34px;
+  }
+  .aboutInfo .side1 .info {
+    font-size: 18px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 15px 0 25px;
+  }
+  .aboutInfo .side1 .buttons .linkBtn {
+    padding: 10px 10px;
+    font-size: 15px;
+  }
+  .aboutInfo .side1 .socialNet .links {
+    padding: 0 10px 0 10px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .titles .title1 {
+    font-size: 35px;
+  }
+  .titles .title2 {
+    font-size: 25px;
+  }
+  .row {
+    margin-top: 30px;
+  }
+  .row .col-md-12 {
+    padding-top: 50px;
+  }
+  .row .col-md-12 .projectCard {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 10px 0;
+  }
+  .row .col-md-12 .projectCard .projectImage {
+    width: 50%;
+  }
+  .row .col-md-12 .projectCard .projectInfo {
+    margin: 0;
+    margin-left: 30px;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectAbout .projectName {
+    font-size: 25px;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectAbout .projectDesc {
+    font-size: 19px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 10px 0 20px;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectButtons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectButtons .buttons {
+    padding: 14px 15px;
+    font-size: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectButtons .buttons:nth-child(2) {
+    margin-left: 7px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .titles .title1 {
+    font-size: 35px;
+  }
+  .titles .title2 {
+    font-size: 25px;
+  }
+  .row {
+    margin-top: 30px;
+  }
+  .row .col-md-12 {
+    padding-top: 10px;
+  }
+  .row .col-md-12 .projectCard {
+    display: inline;
+    margin: 10px 0;
+  }
+  .row .col-md-12 .projectCard .projectImage {
+    width: 100%;
+  }
+  .row .col-md-12 .projectCard .projectInfo {
+    margin: 30px 0;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectAbout .projectName {
+    font-size: 25px;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectAbout .projectDesc {
+    font-size: 19px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 10px 0 20px;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectButtons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectButtons .buttons {
+    padding: 14px 15px;
+    font-size: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectButtons .buttons:nth-child(2) {
+    margin-left: 7px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .titles .title1 {
+    font-size: 35px;
+  }
+  .titles .title2 {
+    font-size: 25px;
+  }
+  .row {
+    margin-top: 30px;
+  }
+  .row .col-md-12 {
+    padding: 10px 0;
+  }
+  .row .col-md-12 .projectCard {
+    display: inline;
+    margin: 10px 0;
+  }
+  .row .col-md-12 .projectCard .projectImage {
+    width: 100%;
+  }
+  .row .col-md-12 .projectCard .projectInfo {
+    margin: 30px 10px;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectAbout .projectName {
+    font-size: 25px;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectAbout .projectDesc {
+    font-size: 19px;
+    margin: 10px 0 20px;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectButtons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectButtons .buttons {
+    padding: 14px 15px;
+    font-size: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectButtons .buttons:nth-child(2) {
+    margin-left: 7px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .titles {
+    padding: 0 10px;
+  }
+  .titles .title1 {
+    font-size: 35px;
+  }
+  .titles .title2 {
+    font-size: 25px;
+  }
+  .row {
+    margin-top: 30px;
+  }
+  .row .col-md-12 {
+    padding-top: 10px;
+  }
+  .row .col-md-12 .projectCard {
+    display: inline;
+    margin: 10px 0;
+  }
+  .row .col-md-12 .projectCard .projectImage {
+    width: 100%;
+  }
+  .row .col-md-12 .projectCard .projectInfo {
+    margin: 30px 10px;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectAbout .projectName {
+    font-size: 25px;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectAbout .projectDesc {
+    font-size: 19px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 10px 0 20px;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectButtons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectButtons .buttons {
+    padding: 14px 15px;
+    font-size: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectButtons .buttons:nth-child(2) {
+    margin-left: 7px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .titles {
+    padding: 0 10px;
+  }
+  .titles .title1 {
+    font-size: 34px;
+  }
+  .titles .title2 {
+    font-size: 22px;
+  }
+  .row {
+    margin-top: 30px;
+  }
+  .row .col-md-12 {
+    padding-top: 10px;
+  }
+  .row .col-md-12 .projectCard {
+    display: inline;
+    margin: 10px 0;
+  }
+  .row .col-md-12 .projectCard .projectImage {
+    width: 100%;
+  }
+  .row .col-md-12 .projectCard .projectInfo {
+    margin: 30px 10px;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectAbout .projectName {
+    font-size: 20px;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectAbout .projectDesc {
+    font-size: 16px;
+    margin: 10px 0 20px;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectButtons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectButtons .buttons {
+    padding: 12px 14px;
+    font-size: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectButtons .buttons:nth-child(2) {
+    margin-left: 7px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 330px) {
+  .titles {
+    padding: 0 10px;
+  }
+  .titles .title1 {
+    font-size: 32px;
+  }
+  .titles .title2 {
+    font-size: 20px;
+  }
+  .row {
+    margin-top: 30px;
+  }
+  .row .col-md-12 {
+    padding-top: 10px;
+  }
+  .row .col-md-12 .projectCard {
+    display: inline;
+    margin: 10px 0;
+  }
+  .row .col-md-12 .projectCard .projectImage {
+    width: 100%;
+  }
+  .row .col-md-12 .projectCard .projectInfo {
+    margin: 30px 10px;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectAbout .projectName {
+    font-size: 22px;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectAbout .projectDesc {
+    font-size: 17px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 10px 0 20px;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectButtons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectButtons .buttons {
+    padding: 12px 17px;
+    font-size: 16px;
+  }
+  .row .col-md-12 .projectCard .projectInfo .projectButtons .buttons:nth-child(2) {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutMeMain {
+    padding: 10px 30px;
+  }
+  .aboutMeMain .firstData {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .aboutMeMain .firstData .myPhoto {
+    width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+  }
+  .aboutMeMain .firstData span .aboutMeText {
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 0;
+    font-size: 22px;
+  }
+  .aboutMeMain .graduation {
+    font-size: 30px;
+  }
+  .aboutMeMain .secondData {
+    margin: 35px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .aboutMeMain .secondData:nth-child(2) {
+    padding: 0 !important;
+  }
+  .aboutMeMain .secondData .commentText {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .aboutMeMain {
+    padding: 10px 30px;
+  }
+  .aboutMeMain .firstData {
+    display: inline;
+  }
+  .aboutMeMain .firstData .myPhoto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+  }
+  .aboutMeMain .firstData span .aboutMeText {
+    margin-top: 20px;
+    padding: 0;
+    font-size: 22px;
+    width: 100%;
+  }
+  .aboutMeMain .graduation {
+    font-size: 30px;
+  }
+  .aboutMeMain .secondData {
+    margin-top: 35px;
+    display: inline;
+  }
+  .aboutMeMain .secondData .withTeacher,
+  .aboutMeMain .secondData .withGroup {
+    padding: 0;
+    margin-top: 20px;
+  }
+  .aboutMeMain .secondData .commentText {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .aboutMeMain {
+    padding: 10px 30px;
+  }
+  .aboutMeMain .firstData {
+    display: inline;
+  }
+  .aboutMeMain .firstData .myPhoto {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+  }
+  .aboutMeMain .firstData span .aboutMeText {
+    margin-top: 20px;
+    padding: 0;
+    font-size: 22px;
+    width: 100%;
+  }
+  .aboutMeMain .graduation {
+    font-size: 30px;
+  }
+  .aboutMeMain .secondData {
+    margin-top: 35px;
+    display: inline;
+  }
+  .aboutMeMain .secondData .withTeacher,
+  .aboutMeMain .secondData .withGroup {
+    padding: 0;
+    margin-top: 20px;
+  }
+  .aboutMeMain .secondData .commentText {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .aboutMeMain {
+    padding: 0 10px;
+  }
+  .aboutMeMain .firstData {
+    display: inline;
+  }
+  .aboutMeMain .firstData .myPhoto {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+  }
+  .aboutMeMain .firstData span .aboutMeText {
+    margin-top: 20px;
+    padding: 0;
+    font-size: 17px;
+    width: 100%;
+  }
+  .aboutMeMain .graduation {
+    font-size: 22px;
+  }
+  .aboutMeMain .secondData {
+    margin-top: 35px;
+    display: inline;
+  }
+  .aboutMeMain .secondData .withTeacher,
+  .aboutMeMain .secondData .withGroup {
+    padding: 0;
+    margin-top: 20px;
+  }
+  .aboutMeMain .secondData .commentText {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .aboutMeMain {
+    padding: 0 10px;
+  }
+  .aboutMeMain .firstData {
+    display: inline;
+  }
+  .aboutMeMain .firstData .myPhoto {
+    width: 100%;
+  }
+  .aboutMeMain .firstData span .aboutMeText {
+    margin-top: 20px;
+    padding: 0;
+    font-size: 17px;
+    width: 100%;
+  }
+  .aboutMeMain .graduation {
+    font-size: 22px;
+  }
+  .aboutMeMain .secondData {
+    margin-top: 35px;
+    display: inline;
+  }
+  .aboutMeMain .secondData .withTeacher,
+  .aboutMeMain .secondData .withGroup {
+    padding: 0;
+    margin-top: 20px;
+  }
+  .aboutMeMain .secondData .commentText {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 330px) {
+  .aboutMeMain {
+    padding: 0 10px;
+  }
+  .aboutMeMain .firstData {
+    display: inline;
+  }
+  .aboutMeMain .firstData .myPhoto {
+    width: 100%;
+  }
+  .aboutMeMain .firstData span .aboutMeText {
+    margin-top: 20px;
+    padding: 0;
+    font-size: 17px;
+    width: 100%;
+  }
+  .aboutMeMain .graduation {
+    font-size: 22px;
+  }
+  .aboutMeMain .secondData {
+    margin-top: 35px;
+    display: inline;
+  }
+  .aboutMeMain .secondData .withTeacher,
+  .aboutMeMain .secondData .withGroup {
+    padding: 0;
+    margin-top: 20px;
+  }
+  .aboutMeMain .secondData .commentText {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer {
+    padding: 13px 0 0;
+  }
+  .footer p {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

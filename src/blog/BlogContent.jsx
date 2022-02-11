@@ -25,13 +25,15 @@ const BlogContent = () => {
 			<Container>
 				<Row>
 					{blogs.map((blog, index) => (
-						<>
+						<div className='blog'>
 							<Col md='12' key={index}>
-								<a href='#lorem'>{blog.postName}</a>
-								<div id='lorem'>{blog.postText}</div>
+								<div className='postName'>{blog.postName}</div>
+								<a href={blog.postLink} target='_blank'>
+									Read the article here 
+								</a>
 							</Col>
-							<div>TEST {}</div>
-						</>
+							<div>TEST</div>
+						</div>
 					))}
 				</Row>
 			</Container>

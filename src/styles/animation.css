@@ -1,0 +1,99 @@
+@keyframes homeText {
+  from {
+    -webkit-transform: translateY(40px);
+            transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes homeText {
+  from {
+    -webkit-transform: translateY(40px);
+            transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.homeText {
+  animation-name: homeText;
+  -webkit-animation-name: homeText;
+  -moz-animation-name: homeText;
+  -o-animation-name: homeText;
+}
+
+@keyframes animNav {
+  from {
+    -webkit-transform: translate(-50px, -50px);
+            transform: translate(-50px, -50px);
+    opacity: 0.3s;
+  }
+  to {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes animNav {
+  from {
+    -webkit-transform: translate(-50px, -50px);
+            transform: translate(-50px, -50px);
+    opacity: 0.3s;
+  }
+  to {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+.animNav {
+  animation-name: animNav;
+  -webkit-animation-name: animNav;
+  -moz-animation-name: animNav;
+  -o-animation-name: animNav;
+}
+
+@keyframes portfolioAnim {
+  from {
+    -webkit-transform: translate(90px, 90px);
+            transform: translate(90px, 90px);
+    opacity: 0.3s;
+  }
+  to {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes portfolioAnim {
+  from {
+    -webkit-transform: translate(90px, 90px);
+            transform: translate(90px, 90px);
+    opacity: 0.3s;
+  }
+  to {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+.portfolioAnim {
+  animation-name: portfolioAnim;
+  -webkit-animation-name: portfolioAnim;
+  -moz-animation-name: portfolioAnim;
+  -o-animation-name: portfolioAnim;
+}
+/*# sourceMappingURL=animation.css.map */
