@@ -22,25 +22,6 @@ const Main = () => {
 							<p className='aboutMeText'>{about.lastText}</p>
 						</span>
 					</div>
-					<div className='eventName'>{about.event}</div>
-					<div className='secondData'>
-						<div>
-							<img
-								src={about.withTeacher}
-								alt='Teacher image'
-								className='withTeacher'
-							/>
-							<p className='commentText'>{about.photoText}</p>
-						</div>
-						<div>
-							<img
-								src={about.withGroup}
-								alt='Teacher image'
-								className='withGroup'
-							/>
-							<p className='commentText'>{about.photoText2}</p>
-						</div>
-					</div>
 				</>
 			))}
 		</div>

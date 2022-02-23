@@ -28,6 +28,7 @@ $togglerColor: #03e9f4;
 	.aboutInfo {
 		display: flex;
 		padding: 75px 25px;
+		margin: 80px auto 0 auto;
 		.side2 {
 			width: 40%;
 			.myImage {
@@ -88,7 +89,7 @@ $togglerColor: #03e9f4;
 	}
 	.aboutInfo {
 		display: flex;
-		padding: 75px 25px;
+		margin: 80px auto 0 auto;
 		.side2 {
 			width: 40%;
 			.myImage {
@@ -148,10 +149,10 @@ $togglerColor: #03e9f4;
 	.aboutInfo {
 		display: inline;
 		text-align: center;
-		// padding: 30px 0 30px 0;
+		padding-bottom: 0;
 		.side2 {
 			width: 100% !important;
-			margin: 0 auto;
+			margin: 80px auto 25px auto;
 			.myImage {
 				width: 65%;
 				height: 100%;
@@ -210,9 +211,10 @@ $togglerColor: #03e9f4;
 	.aboutInfo {
 		display: inline;
 		text-align: center;
+		padding-bottom: 0;
 		.side2 {
 			width: 100% !important;
-			margin: 0 auto;
+			margin: 80px auto 25px auto;
 			.myImage {
 				width: 70%;
 				height: 100%;
@@ -276,11 +278,11 @@ $togglerColor: #03e9f4;
 	}
 	.aboutInfo {
 		display: inline;
-		// padding: 30px 0 30px 0;
 		text-align: center;
+		padding-bottom: 0;
 		.side2 {
 			width: 100% !important;
-			margin: 0 auto;
+			margin: 80px auto 25px auto;
 			.myImage {
 				width: 85%;
 				height: 100%;
@@ -289,23 +291,20 @@ $togglerColor: #03e9f4;
 		.side1 {
 			width: 100%;
 			.name {
-				font-size: 30px;
+				font-size: 27px;
 			}
 			.info {
-				font-size: 18px;
+				font-size: 17px;
 				width: 100%;
-				padding: 0 15px;
-				margin: 15px 0 25px;
 			}
 			.buttons {
 				.linkBtn {
-					padding: 8px 8px;
+					padding: 9px 8px;
 					font-size: 13px;
 				}
 			}
 			.socialNet {
 				.links {
-					// padding: 0 10px 0 10px;
 					.socialIcon {
 						font-size: 30px;
 					}
@@ -341,7 +340,7 @@ $togglerColor: #03e9f4;
 		text-align: center;
 		.side2 {
 			width: 100% !important;
-			margin: 0 auto;
+			margin: 50px auto;
 			.myImage {
 				width: 90%;
 				height: 100%;
@@ -840,7 +839,6 @@ $togglerColor: #03e9f4;
 			}
 			span {
 				.aboutMeText {
-					margin-top: 20px;
 					margin-left: 30px;
 					padding: 0;
 					font-size: 22px;

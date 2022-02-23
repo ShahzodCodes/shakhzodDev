@@ -4,8 +4,17 @@
 	box-sizing: border-box;
 }
 
-
-
+.react-reveal.animNav {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	width: 100%;
+	backdrop-filter: blur(10px);
+	background-color: #000000cf;
+	box-shadow: 0 5px 15px #0c0c0cde;
+}
 
 /* width */
 ::-webkit-scrollbar {
