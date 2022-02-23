@@ -22,9 +22,7 @@ const Main = () => {
 							<p className='aboutMeText'>{about.lastText}</p>
 						</span>
 					</div>
-					<div className='graduation'>
-						The Graduation Ceremony At PDP IT Academy:
-					</div>
+					<div className='eventName'>{about.event}</div>
 					<div className='secondData'>
 						<div>
 							<img
@@ -32,7 +30,7 @@ const Main = () => {
 								alt='Teacher image'
 								className='withTeacher'
 							/>
-							<p className='commentText'>With my teacher, Sardor Muhtorov</p>
+							<p className='commentText'>{about.photoText}</p>
 						</div>
 						<div>
 							<img
@@ -40,7 +38,7 @@ const Main = () => {
 								alt='Teacher image'
 								className='withGroup'
 							/>
-							<p className='commentText'>With my group, G96</p>
+							<p className='commentText'>{about.photoText2}</p>
 						</div>
 					</div>
 				</>

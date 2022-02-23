@@ -344,7 +344,8 @@ nav.fixed {
 			}
 		}
 	}
-	.graduation {
+	.eventName {
+		text-transform: capitalize;
 		font-size: 45px;
 		color: white;
 		font-weight: bold;
@@ -375,12 +376,29 @@ nav.fixed {
 	}
 }
 
+// Activity
+.ActivityMain {
+	padding: 80px;
+}
+
 //Blog
 
 .blog {
+	font-family: 'Montserrat', sans-serif;
 	.postName {
 		color: white;
 		font-size: 26px;
+	}
+	.link {
+		color: #17f354;
+		font-size: 24px;
+		text-decoration: none;
+		margin: 10px 0;
+		border-bottom: 1px solid transparent;
+		&:hover {
+			color: #03e9f4;
+			border-bottom: 1px solid #17f354;
+		}
 	}
 }
 

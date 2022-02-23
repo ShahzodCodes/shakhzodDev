@@ -1,12 +1,11 @@
 import React from 'react'
 import NavSec from '../home/NavSec'
-import Reveal from 'react-reveal/Reveal'
 import PageInfo from './PageInfo'
-import BlogContent from './BlogContent'
+import Main from './Main'
+import Reveal from 'react-reveal/Reveal'
 import Footer from '../footer/Footer'
-import db from '../firebase/config'
 
-const Blog = () => {
+const Activity = () => {
 	return (
 		<>
 			<Reveal effect='animNav' duration='750'>
@@ -16,11 +15,11 @@ const Blog = () => {
 				<PageInfo />
 			</Reveal>
 			<Reveal effect='portfolioAnim' duration='1800'>
-				<BlogContent />
+				<Main />
 			</Reveal>
 			<Footer />
 		</>
 	)
 }
 
-export default Blog
+export default Activity

@@ -678,15 +678,14 @@ $togglerColor: #03e9f4;
 	}
 }
 
-// AboutMePAge
+// AboutMePage
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1470px) {
 	.aboutMeMain {
 		padding: 10px 30px;
 		.firstData {
 			display: flex;
 			.myPhoto {
-				width: 40%;
 				display: flex;
 				margin: 0 auto;
 			}
@@ -699,7 +698,43 @@ $togglerColor: #03e9f4;
 				}
 			}
 		}
-		.graduation {
+		.eventName {
+			font-size: 30px;
+		}
+		.secondData {
+			margin: 35px 0;
+			display: flex;
+			&:nth-child(2) {
+				padding: 0 !important;
+			}
+			.commentText {
+				font-size: 20px;
+				margin-top: 5px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.aboutMeMain {
+		padding: 10px 30px;
+		.firstData {
+			display: flex;
+			.myPhoto {
+				width: 48%;
+				display: flex;
+				margin: 0 auto;
+			}
+			span {
+				.aboutMeText {
+					margin-top: 0;
+					margin-left: 30px;
+					padding: 0;
+					font-size: 22px;
+				}
+			}
+		}
+		.eventName {
 			font-size: 30px;
 		}
 		.secondData {
@@ -722,19 +757,21 @@ $togglerColor: #03e9f4;
 		.firstData {
 			display: inline;
 			.myPhoto {
+				width: 100%;
 				display: flex;
 				margin: 0 auto;
 			}
 			span {
 				.aboutMeText {
 					margin-top: 20px;
+					margin-left: 0;
 					padding: 0;
 					font-size: 22px;
 					width: 100%;
 				}
 			}
 		}
-		.graduation {
+		.eventName {
 			font-size: 30px;
 		}
 		.secondData {
@@ -766,13 +803,14 @@ $togglerColor: #03e9f4;
 			span {
 				.aboutMeText {
 					margin-top: 20px;
+					margin-left: 0;
 					padding: 0;
 					font-size: 22px;
 					width: 100%;
 				}
 			}
 		}
-		.graduation {
+		.eventName {
 			font-size: 30px;
 		}
 		.secondData {
@@ -804,13 +842,14 @@ $togglerColor: #03e9f4;
 			span {
 				.aboutMeText {
 					margin-top: 20px;
+					margin-left: 0;
 					padding: 0;
 					font-size: 17px;
 					width: 100%;
 				}
 			}
 		}
-		.graduation {
+		.eventName {
 			font-size: 22px;
 		}
 		.secondData {
@@ -840,13 +879,14 @@ $togglerColor: #03e9f4;
 			span {
 				.aboutMeText {
 					margin-top: 20px;
+					margin-left: 0;
 					padding: 0;
 					font-size: 17px;
 					width: 100%;
 				}
 			}
 		}
-		.graduation {
+		.eventName {
 			font-size: 22px;
 		}
 		.secondData {
@@ -876,13 +916,13 @@ $togglerColor: #03e9f4;
 			span {
 				.aboutMeText {
 					margin-top: 20px;
-					padding: 0;
+					margin-left: 0;
 					font-size: 17px;
 					width: 100%;
 				}
 			}
 		}
-		.graduation {
+		.eventName {
 			font-size: 22px;
 		}
 		.secondData {
