@@ -1,12 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import db from '../firebase/config'
 import { Col, Container, Row } from 'reactstrap'
-import countapi from 'countapi-js'
-import VisibilityIcon from '@mui/icons-material/Visibility'
-
-countapi.visits().then(result => {
-	console.log('From CountApi', result.value)
-})
+import EastIcon from '@mui/icons-material/East'
 
 const BlogContent = () => {
 	const [blogs, setBlogs] = useState([])
@@ -19,14 +14,19 @@ const BlogContent = () => {
 
 	return (
 		<>
-			<Container>
+			<Container className='blogWrapper'>
 				{blogs.map((blog, index) => (
-					<div className='blog' key={index}>
-						<div className='postName'>{blog.postName}</div>
-						<a className='link' href={blog.postLink} target='_blank'>
-							Read the article here
-						</a>
-					</div>
+					<>
+						<div className='blog' key={index}>
+							<a className='link' href={blog.postLink} target='_blank'>
+								<div>
+									<div className='date'> {blog.date} </div>
+									{blog.postName}
+								</div>
+								<EastIcon className='next' />
+							</a>
+						</div>
+					</>
 				))}
 			</Container>
 		</>
