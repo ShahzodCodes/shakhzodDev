@@ -3,7 +3,6 @@ import { Col, Container, Row } from 'reactstrap'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import LinkIcon from '@mui/icons-material/Link'
 import db from '../firebase/config'
-import { Link } from 'react-router-dom'
 
 const Project = () => {
 	const [projects, setProjects] = useState([])
