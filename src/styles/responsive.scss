@@ -1164,11 +1164,12 @@ $togglerColor: #03e9f4;
 
 @media (max-width: 1200px) {
 	.ActivityMain {
-		padding: 0 30px 50px 30px;
+		padding: 0 30px;
 		.title {
 			font-size: 32px;
 			font-weight: bold;
 			letter-spacing: 1px;
+			margin-top: 50px;
 		}
 		.subtitle {
 			font-size: 23px;
@@ -1199,23 +1200,25 @@ $togglerColor: #03e9f4;
 
 @media (max-width: 1024px) {
 	.ActivityMain {
-		padding: 0 30px 50px 30px;
+		padding: 0 30px;
 		.title {
 			font-size: 30px;
 			font-weight: bold;
 			letter-spacing: 1px;
+			margin-top: 50px;
 		}
 		.subtitle {
 			font-size: 23px;
 			color: #17f354;
 			font-weight: bold;
 			text-align: center;
-			margin-top: 10px;
+			margin-top: 7px;
 		}
 		.photoWrapper {
 			margin-top: 40px;
 			display: flex;
 			justify-content: space-between;
+			margin: 50px 0;
 			.photoOne,
 			.photoTwo {
 				width: 100% !important;
