@@ -18,6 +18,14 @@ const BlogContent = () => {
 				{blogs.map((blog, index) => (
 					<>
 						<div className='blog' key={index}>
+							<p className='blogDef'>
+								Men bu yerda o'zimni bilim va tajribamdan kelib chiqqan holda,
+								turli mavzularda maqola ko'rinishidagi har xil qiziqarli postlar
+								joylab borishga harakat qilaman. Agar siz bu yozganlarimdan
+								o'zingiz uchun biror bir foydali ma'lumot olsangiz, iltimos
+								ota-onam haqqiga duo qiling va albatta boshqalar bilan ham
+								ulashing.
+							</p>
 							<a className='link' href={blog.postLink} target='_blank'>
 								<div>
 									<div className='date'> {blog.date} </div>

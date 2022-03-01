@@ -681,10 +681,17 @@ $togglerColor: #03e9f4;
 
 @media (max-width: 1200px) {
 	.blogWrapper {
-		min-width: 80% !important;
+		min-width: 85% !important;
 		margin: 25px auto;
 		.blog {
 			margin-top: 20px;
+			.blogDef {
+				font-size: 20px;
+				margin: 0 auto 30px auto !important;
+				&::before {
+					font-size: 24px;
+				}
+			}
 			.link {
 				font-size: 22px;
 				text-decoration: none;
@@ -714,6 +721,13 @@ $togglerColor: #03e9f4;
 		margin: 25px auto;
 		.blog {
 			margin-top: 20px;
+			.blogDef {
+				font-size: 20px;
+				margin: 0 auto 30px auto !important;
+				&::before {
+					font-size: 24px;
+				}
+			}
 			.link {
 				font-size: 22px;
 				text-decoration: none;
@@ -743,6 +757,13 @@ $togglerColor: #03e9f4;
 		margin: 15px auto;
 		.blog {
 			margin-top: 10px;
+			.blogDef {
+				font-size: 18px;
+				margin: 0 auto 30px auto !important;
+				&::before {
+					font-size: 23px;
+				}
+			}
 			.link {
 				font-size: 19px;
 				text-decoration: none;
@@ -772,6 +793,13 @@ $togglerColor: #03e9f4;
 		margin: 10px auto;
 		.blog {
 			margin-top: 5px;
+			.blogDef {
+				font-size: 18px;
+				margin: 0 auto 30px auto !important;
+				&::before {
+					font-size: 23px;
+				}
+			}
 			.link {
 				font-size: 18px;
 				text-decoration: none;
@@ -802,6 +830,13 @@ $togglerColor: #03e9f4;
 		margin: 10px auto;
 		.blog {
 			margin-top: 5px;
+			.blogDef {
+				font-size: 17px;
+				margin: 0 auto 30px auto !important;
+				&::before {
+					font-size: 22px;
+				}
+			}
 			.link {
 				font-size: 17px;
 				text-decoration: none;
@@ -832,6 +867,13 @@ $togglerColor: #03e9f4;
 		margin: 10px auto;
 		.blog {
 			margin-top: 5px;
+			.blogDef {
+				font-size: 17px;
+				margin: 0 auto 30px auto !important;
+				&::before {
+					font-size: 22px;
+				}
+			}
 			.link {
 				font-size: 17px;
 				text-decoration: none;
@@ -1113,6 +1155,214 @@ $togglerColor: #03e9f4;
 			.commentText {
 				font-size: 16px;
 				margin-top: 5px;
+			}
+		}
+	}
+}
+
+// Activity
+
+@media (max-width: 1200px) {
+	.ActivityMain {
+		padding: 0 30px 50px 30px;
+		.title {
+			font-size: 32px;
+			font-weight: bold;
+			letter-spacing: 1px;
+		}
+		.subtitle {
+			font-size: 23px;
+		}
+		.photoWrapper {
+			margin-top: 40px;
+			display: flex;
+			justify-content: space-between;
+			.photoOne,
+			.photoTwo {
+				width: 100% !important;
+				height: 100%;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			.photoOne {
+				padding-right: 15px;
+				box-sizing: border-box;
+			}
+			.commentText {
+				color: whitesmoke;
+				font-size: 17px;
+				margin: 10px 0;
+			}
+		}
+	}
+}
+
+@media (max-width: 1024px) {
+	.ActivityMain {
+		padding: 0 30px 50px 30px;
+		.title {
+			font-size: 30px;
+			font-weight: bold;
+			letter-spacing: 1px;
+		}
+		.subtitle {
+			font-size: 23px;
+			color: #17f354;
+			font-weight: bold;
+			text-align: center;
+			margin-top: 10px;
+		}
+		.photoWrapper {
+			margin-top: 40px;
+			display: flex;
+			justify-content: space-between;
+			.photoOne,
+			.photoTwo {
+				width: 100% !important;
+				height: 100%;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			.photoOne {
+				padding-right: 15px;
+				box-sizing: border-box;
+			}
+			.commentText {
+				color: whitesmoke;
+				font-size: 17px;
+				margin: 10px 0;
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.ActivityMain {
+		padding: 0;
+		width: 95%;
+		margin: 0 auto;
+		.title {
+			font-size: 24px;
+			font-weight: bold;
+			letter-spacing: 0;
+		}
+		.subtitle {
+			font-size: 20px;
+			font-weight: normal;
+			margin-top: 8px;
+		}
+		.photoWrapper {
+			margin: 0 auto;
+			margin-top: 20px;
+			display: block;
+			.photoOne,
+			.photoTwo {
+				padding: 0;
+			}
+			.commentText {
+				color: whitesmoke;
+				font-size: 15px;
+				font-weight: 300;
+				margin-top: 10px;
+			}
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	.ActivityMain {
+		padding: 0;
+		width: 95%;
+		margin: 0 auto;
+		.title {
+			font-size: 23px;
+			font-weight: normal;
+			letter-spacing: 0;
+		}
+		.subtitle {
+			font-size: 18px;
+			font-weight: normal;
+			margin-top: 7px;
+		}
+		.photoWrapper {
+			margin: 0 auto;
+			margin-top: 20px;
+			display: block;
+			.photoOne,
+			.photoTwo {
+				padding: 0;
+			}
+			.commentText {
+				color: whitesmoke;
+				font-size: 15px;
+				font-weight: 300;
+				margin-top: 10px;
+			}
+		}
+	}
+}
+
+@media (max-width: 370px) {
+	.ActivityMain {
+		padding: 0;
+		width: 95%;
+		margin: 0 auto;
+		.title {
+			font-size: 23px;
+			font-weight: normal;
+			letter-spacing: 0;
+		}
+		.subtitle {
+			font-size: 18px;
+			font-weight: normal;
+			margin-top: 7px;
+		}
+		.photoWrapper {
+			margin: 0 auto;
+			margin-top: 20px;
+			display: block;
+			.photoOne,
+			.photoTwo {
+				padding: 0;
+			}
+			.commentText {
+				color: whitesmoke;
+				font-size: 15px;
+				font-weight: 300;
+				margin-top: 10px;
+			}
+		}
+	}
+}
+
+@media (min-width: 320px) and (max-width: 330px) {
+	.ActivityMain {
+		padding: 0;
+		width: 95%;
+		margin: 0 auto;
+		.title {
+			font-size: 23px;
+			font-weight: normal;
+			letter-spacing: 0;
+		}
+		.subtitle {
+			font-size: 18px;
+			font-weight: normal;
+			margin-top: 7px;
+		}
+		.photoWrapper {
+			margin: 0 auto;
+			margin-top: 20px;
+			display: block;
+			.photoOne,
+			.photoTwo {
+				padding: 0;
+			}
+			.commentText {
+				color: whitesmoke;
+				font-size: 15px;
+				font-weight: 300;
+				margin-top: 10px;
 			}
 		}
 	}

@@ -64,6 +64,38 @@ nav {
 			margin: 20px;
 			font-size: 20px;
 			font-family: 'Montserrat', sans-serif;
+			position: relative;
+			&::after {
+				cursor: pointer;
+				content: '';
+				width: 0;
+				height: 2px;
+				display: block;
+				background-color: $socialIcons;
+				transition: 0.3s linear;
+				position: absolute;
+				left: 50%;
+			}
+			&:hover::after {
+				width: 50%;
+				cursor: pointer;
+			}
+			&::before {
+				cursor: pointer;
+				content: '';
+				width: 0;
+				height: 2px;
+				display: block;
+				background-color: $socialIcons;
+				transition: 0.3s linear;
+				position: absolute;
+				bottom: -2px;
+				right: 50%;
+			}
+			&:hover::before {
+				width: 50%;
+				cursor: pointer;
+			}
 			a {
 				color: white;
 				text-decoration: none;
@@ -79,17 +111,6 @@ nav {
 		}
 	}
 }
-// nav.fixed {
-// 	overflow: hidden;
-// 	position: fixed;
-// 	top: 0;
-// 	left: 0;
-// 	z-index: 99;
-// 	width: 100%;
-// 	backdrop-filter: blur(10px);
-// 	background-color: #000000cf;
-// 	box-shadow: 0 5px 15px #0c0c0cde;
-// }
 
 // about
 
@@ -350,10 +371,10 @@ nav {
 // Activity
 .ActivityMain {
 	font-family: 'Montserrat', sans-serif;
-	padding: 80px;
+	padding: 60px 80px;
 	.title {
 		text-transform: capitalize;
-		font-size: 45px;
+		font-size: 40px;
 		color: white;
 		font-weight: bold;
 		letter-spacing: 2px;
@@ -390,10 +411,21 @@ nav {
 
 //Blog
 .blogWrapper {
-	width: 70% !important;
+	width: 77% !important;
 	margin: 40px auto;
 	.blog {
 		margin-top: 15px;
+		.blogDef {
+			color: white;
+			font-size: 22px;
+			margin: 0 auto 40px auto !important;
+			&::before {
+				content: 'Eslatma: ';
+				color: red;
+				font-size: 26px;
+				font-weight: bold;
+			}
+		}
 		.link {
 			display: flex;
 			justify-content: space-between;
